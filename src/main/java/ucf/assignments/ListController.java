@@ -11,13 +11,13 @@ public class ListController {
     @FXML
     public void selectListButtonClicked(ActionEvent actionEvent) {
         // call selectList method
-        // return list object
+
     }
     public void selectList() {
         // Loop through the arrayList
         // Print out every item on the list
-        // return selected list onject
-        return String Object list;
+        // return selected list object
+
     }
 
     @FXML
@@ -56,6 +56,24 @@ public class ListController {
 
     @FXML
     public void saveButtonClicked(ActionEvent actionEvent) {
+        // prompt user to save a single list or all of them
+        // if single list
+            // call saveList method
+        // if all lists
+            // call saveAll method
+
+    }
+
+    public void saveAll() {
+        // create a json file within loop
+        // loop through all list objects
+            // format list contents into json format
+            // write into json file
+    }
+    public void saveList() {
+        // make a new json file
+        // format list into json
+        // write into json file
     }
 
     @FXML
@@ -78,7 +96,7 @@ public class ListController {
         // Prompt user to select an item
         // call removeItem method
     }
-    public void removeitem(Object list, String itemName) {
+    public void removeItem(Object list, String itemName) {
         // remove method to remove item object from the item arraylist in list object
     }
 
