@@ -7,7 +7,7 @@ class ListManager {
 }
 
 class ListController {
-    listDiplay : TextField
+    listDisplay : TextField
 
     selectListButtonClicked()
     addListButtonClicked()
