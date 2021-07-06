@@ -1,3 +1,8 @@
+/*
+ *  UCF COP3330 Summer 2021 Assignment 4 Solution
+ *  Copyright 2021 Cristiam Enciso
+ */
+
 package ucf.assignments;
 
 import javafx.event.ActionEvent;
@@ -50,6 +55,7 @@ public class ListController {
     }
 
     public void addItem(String itemName, Object list) {
+        // create list object instance
         // create new item object
         // add method to add item object to item arrayList in List object.
     }
