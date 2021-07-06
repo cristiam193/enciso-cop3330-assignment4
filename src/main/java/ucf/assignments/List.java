@@ -11,7 +11,8 @@ public class List {
     private ArrayList<ListItem> itemList;
 
     public List() {
-        itemList = new ArrayList<ListItem>();
+        // initialize an arraylist of listItem objects
+       // itemList = new ArrayList<ListItem>();
     }
 
 }
